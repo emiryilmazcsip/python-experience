@@ -1,0 +1,48 @@
+import turtle
+
+turtle.bgcolor("tan")
+turtle.penup()
+turtle.goto(0, -120)
+turtle.pendown()
+turtle.fillcolor("white")
+turtle.begin_fill()
+turtle.circle(150)
+turtle.end_fill()
+
+turtle.penup()
+turtle.goto(0, -80)
+turtle.pendown()
+turtle.pencolor("black")
+turtle.fillcolor("black")
+turtle.begin_fill()
+turtle.circle(110)
+turtle.end_fill()
+
+turtle.penup()
+turtle.goto(0, -40)
+turtle.pendown()
+turtle.pencolor("purple")
+turtle.fillcolor("purple")
+turtle.begin_fill()
+turtle.circle(70)
+turtle.end_fill()
+
+turtle.penup()
+turtle.goto(0, -20)
+turtle.pendown()
+turtle.pencolor("brown")
+turtle.fillcolor("brown")
+turtle.begin_fill()
+turtle.circle(50)
+turtle.end_fill()
+
+turtle.penup()
+turtle.goto(0, 0)
+turtle.pendown()
+turtle.pencolor("yellow")
+turtle.fillcolor("yellow")
+turtle.begin_fill()
+turtle.circle(30)
+turtle.end_fill()
+
+
